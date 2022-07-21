@@ -2,7 +2,9 @@ import React from 'react'
 
 function Demo() {
   return (
-    <div>Demo</div>
+    <div className='page-heading'>
+    <h1>Demo</h1>
+  </div>
   )
 }
 

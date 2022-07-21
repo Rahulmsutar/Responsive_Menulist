@@ -2,7 +2,9 @@ import React from 'react'
 
 function Testmonials() {
   return (
-    <div>Testmonials</div>
+    <div className='page-heading'>
+      <h1>Testmonials</h1>
+    </div>
   )
 }
 

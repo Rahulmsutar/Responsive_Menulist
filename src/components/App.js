@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react'
-import { BroswerRouter as Router, Routes, Route, useRoutes } from 'react-router-dom'
+import { useRoutes } from 'react-router-dom'
 import Home from './pages/Home';
 import Demo from './pages/Demo';
 import Keyfeature from './pages/Keyfeature';
@@ -9,7 +9,7 @@ import Testmonials from './pages/Testmonials';
 import Navbar from './Navbar/Navbar';
 
 function App() {
-  const routes = useRoutes([
+  let routes = useRoutes([
     {
       path: "/",
       element: <Home />
